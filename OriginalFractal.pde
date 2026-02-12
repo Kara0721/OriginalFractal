@@ -4,7 +4,7 @@ rectMode(CENTER);
 }
 public void draw(){
 background(0);
-myFractal(250,250,100);
+myFractal(200,200,400);
 }
 public void myFractal(int x, int y, int siz){
 rect(x, y, siz, siz);
@@ -13,6 +13,7 @@ myFractal(x-siz/2, y, siz/2);
 myFractal(x+siz/2, y, siz/2);
   }
 }
+
 
 
 
