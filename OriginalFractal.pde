@@ -9,13 +9,13 @@ myFractal (400,400,90);
 fill(0, 0, 256);
 myFractal (400,0,90);
 myFractal(0,400,90);
-fill(256, 256, 256);
-myFractal(200,200,200);
 fill(0,256,0);
 myFractal(250,0,150);
 myFractal(0,250,150);
 myFractal(400,250,150);
 myFractal(250,400,150);
+fill(256, 256, 256);
+myFractal(200,200,200);
 }
 public void myFractal(int x, int y, int siz){
 ellipse (x, y, siz, siz);
@@ -26,6 +26,7 @@ myFractal(x, y-siz/2, siz/2);
 myFractal(x, y+siz/2, siz/2);
   }
 }
+
 
 
 
