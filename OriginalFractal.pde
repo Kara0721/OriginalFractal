@@ -6,8 +6,10 @@ background(0);
 myFractal(200,200,200);
 fill(256, 0, 0);
 myFractal(0,0,90);
-fill(0, 0, 256);
 myFractal (400,400,90);
+fill(0, 0, 256);
+myFractal (400,0,90);
+myFractal(0,400,90);
 
 }
 public void myFractal(int x, int y, int siz){
@@ -19,6 +21,7 @@ myFractal(x, y-siz/2, siz/2);
 myFractal(x, y+siz/2, siz/2);
   }
 }
+
 
 
 
