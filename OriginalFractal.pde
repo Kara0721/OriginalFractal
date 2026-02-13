@@ -9,7 +9,7 @@ myFractal (400,400,90);
 fill(0, 0, 256);
 myFractal (400,0,90);
 myFractal(0,400,90);
-fill(255,255,0);
+fill(203,203,203);
 myFractal(200,0,120);
 myFractal(0,200,120);
 myFractal(400,200,120);
@@ -26,6 +26,7 @@ myFractal(x, y-siz/2, siz/2);
 myFractal(x, y+siz/2, siz/2);
   }
 }
+
 
 
 
